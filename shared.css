@@ -52,3 +52,24 @@ header ul a:hover {
     background-color: rgba(257, 256, 0);
     ;
 }
+
+footer {
+    background: linear-gradient(70deg, rgba(24, 24, 24), rgb(21, 20, 30));
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+footer li {
+    height: 80px;
+    width: 80px;
+    margin: 0 40px;
+}
+
+footer img {
+    height: 100%;
+    width: 100%;
+}
