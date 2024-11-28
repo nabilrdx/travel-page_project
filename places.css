@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    position: static;
+}
+
+header #page-logo a,
+header nav a {
+    color: rgb(22, 211, 228);
+}
+
+header nav a:hover {
+    background-color: rgb(22, 211, 228);
+    color: white;
+}
+
+main li img {
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}
+
+main li {
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+}
+
+main ul {
+    width: 1200px;
+    margin: 0 auto 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 50px;
+}
+
+li:nth-child(3) {
+    grid-column: 1 / 3;
+}
+
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(22, 211, 228);
+    padding: 6px;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a:hover {
+    background-color: rgb(231, 246, 247);
+}
+
+
+/* footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+} */
